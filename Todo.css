@@ -1,0 +1,48 @@
+.hidden{
+    display: none;
+}
+.login{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.title{
+    color:cornsilk;
+    font-size:100px;
+    margin-top: 280px;
+}
+.loginInput{
+    margin-top: 50px;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    border-bottom: 5px groove;
+    font-size:30px;
+    text-align: center;
+}
+.todoList{
+    padding:10px;
+    border-radius:10px;
+    float: right;
+    background-color: gray;
+    width: 250px;
+    height: 350px;
+}
+.helloText{
+    color:cornsilk;
+    font-size: 45px;
+    margin-top: 220px;
+    text-align: center;
+}
+.weather{
+    color:cornsilk;
+    float:right;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+.todoForm{
+    text-align: center;
+}
+.todoInput{
+    width: 200px;
+    font-size:15px;
+}

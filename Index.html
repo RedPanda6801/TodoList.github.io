@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Todo.css"/>
+</head>
+<body>
+    <div class='login'>
+        <h1 class='title'>What's your Name?</h1>
+        <form class='loginForm'>
+            <input type='text' class='loginInput'/>
+        </form>
+    </div>
+    <div class='main hidden'>
+        <header>
+            <button class='logout'>logout</button> <h5 class='weather'>how's weather today?</h5>
+        </header>
+        <div class='helloText'>
+            <h1>Are you logged in?</h1>
+            <div class='clock'>
+                <h1>00:00:00</h1>
+            </div>
+        </div>
+        <div class='todoList'>
+            <form class='todoForm'>
+                <h1 style='
+                    background-color:darkgrey; 
+                    border-radius: 5px;
+                '>
+                    To Do List!
+                </h1>
+                <input class='todoInput'/>
+            </form>
+            <ul class='list'>
+            </ul>
+        </div>
+    </div>
+    <script src='Clock.js'></script>
+    <script src='Login.js'></script>
+    <script src='List.js'></script>
+    <script src='Weather.js'></script>
+    <script src='Background.js'></script>
+</body>
+</html>
